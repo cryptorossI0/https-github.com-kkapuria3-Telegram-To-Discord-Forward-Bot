@@ -37,24 +37,24 @@ async def on_ready():
     print('Awaiting Telegram Message')
 
     # My channels are for RTX card drops and PS5
-    channel_1 = discord_client.get_channel(config["discord_1_channel"])
-    channel_2 = discord_client.get_channel(config["discord_2_channel"])
-    channel_3 = discord_client.get_channel(config["discord_3_channel"])
-    channel_4 = discord_client.get_channel(config["discord_4_channel"])
+    channel_3080 = discord_client.get_channel(config["discord_3080_channel"])
+    channel_3070 = discord_client.get_channel(config["discord_3070_channel"])
+    channel_3060 = discord_client.get_channel(config["discord_3060_channel"])
+    channel_PS5 = discord_client.get_channel(config["discord_PS5_channel"])
 
 ''' 
 ------------------------------------------------------------------------
     MESSAGE SCREENER -- Its stricter than immigration
 ------------------------------------------------------------------------
 '''
-    if 'Mario' in message:
-        await channel_1.send(message)
-    elif 'Zelda' in message:
-        await channel_2.send(message)
-    elif 'Minecraft' in message:
-        await channel_3.send(message)
-    elif 'Valhiem' in message:
-        await channel_4.send(message)
+    if '3080' in message:
+        await channel_3080.send(message)
+    elif '3070' in message:
+        await channel_3070.send(message)
+    elif '3060' in message:
+        await channel_3060.send(message)
+    elif 'Sony' in message:
+        await channel_PS5.send(message)
 
     quit()
 
