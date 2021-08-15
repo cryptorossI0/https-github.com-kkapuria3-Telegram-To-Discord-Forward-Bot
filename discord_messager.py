@@ -42,11 +42,6 @@ async def on_ready():
     channel_3060 = discord_client.get_channel(config["discord_3060_channel"])
     channel_PS5 = discord_client.get_channel(config["discord_PS5_channel"])
 
-''' 
-------------------------------------------------------------------------
-    MESSAGE SCREENER -- Its stricter than immigration
-------------------------------------------------------------------------
-'''
     if '3080' in message:
         await channel_3080.send(message)
     elif '3070' in message:
