@@ -1,4 +1,12 @@
 <img src="resources/new_logo.gif">
+<br><br>
+<h1>Update</h1>
+<h2>(June, 2022) Fixed Version made by :
+
+[Sqble](https://github.com/Sqble/Telegram-To-Discord-Bot-Fixed)
+</h2>
+
+
 
 * JOIN Support & FAQ Discord 👉 <a href="https://discord.gg/UcxcyxS5X8"><img src="https://discord.com/assets/f9bb9c4af2b9c32a2c5ee0014661546d.png" width="18" height="18"></img></a>
 
@@ -70,6 +78,7 @@ Forwardgram is a free and open source, telegram to discord message bot. It enabl
 
 * Karan Kapuria
 * voidbar
+* Sqble
 
 <a href="https://www.buymeacoffee.com/kapuriakaran" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
