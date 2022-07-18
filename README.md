@@ -39,7 +39,7 @@ Forwardgram is a free and open source, telegram to discord message bot. It enabl
 
 1. Python 3.6+ 
 2. [Anaconda Python Console](https://www.anaconda.com/products/individual) (Optional, makes pip install debugging go away)
-3. Create you own discord bot, add it to your server and retrive token. Follow Steps [here](https://www.writebots.com/discord-bot-token/).
+3. Create your own discord bot, add it to your server and retrive token. Follow Steps [here](https://www.writebots.com/discord-bot-token/).
 4. Have a Telegram account with valid phone number
 
 
